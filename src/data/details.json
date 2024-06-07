@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "title": "Astronomy Image",
+    "discription": "A single-page, responsive web application developed using the NASA APOD (Astronomy Picture of the Day) API. This application is designed to provide users with a daily astronomical image along with a brief description. Developed with React, CSS, and HTML, the website ensures a dynamic and engaging user experience ",
+    "src": "assets/nasa.png",
+    "url": "https://bhawanmalhi.github.io/Nasa-image-react-app/"
+  },
+  {
+    "id": "2",
+    "title": "TravelTab",
+    "discription": "Developed a web application from scratch to enable users to track road trips and related expenses. This application allows users to add and manage multiple trips with detailed expense entries, including descriptions and amounts spent. I ensured a responsive design using SAAS for seamless usability across various devices. For the frontend, I utilized React.js and JavaScript, and I implemented the TravelTab-API as a local server for running the application and data storage.",
+    "src": "assets/travelTab.png",
+    "url": "https://github.com/BhawanMalhi/TravelTab"
+  },
+  {
+    "id": "3",
+    "title": "Trivia",
+    "discription": "A web-based quiz application built using React, SCSS, HTML, and CSS. This application leverages an API to fetch questions and provide real-time answers, validating responses instantly.This project highlights proficiency in modern web development technologies and techniques, focusing on creating an interactive and user-friendly application.",
+    "src": "assets/trivia.png",
+    "url": "https://bhawanmalhi.github.io/trivia/"
+  },
+  {
+    "id": "4",
+    "title": "Simon Game",
+    "discription": "A web-based game designed to test and improve memory skills. Built using JavaScript, HTML, and CSS, this game offers an engaging and interactive experience.This project showcases expertise in front-end web development, focusing on creating an entertaining and educational application.",
+    "src": "assets/simon.png",
+    "url": "https://bhawanmalhi.github.io/SimonGame/"
+  }
+]
