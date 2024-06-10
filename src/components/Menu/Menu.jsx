@@ -11,6 +11,9 @@ export default function Menu({menuState,setMenuState}) {
             <a href="#portfolio">Portfolio</a>
             </li>
             <li onClick={()=>setMenuState(false)}>
+            <a href="#works">Works</a>
+            </li>
+            <li onClick={()=>setMenuState(false)}>
             <a href="#about">About</a>
             </li>
             <li onClick={()=>setMenuState(false)}>
