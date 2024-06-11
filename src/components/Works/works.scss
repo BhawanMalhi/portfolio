@@ -1,5 +1,7 @@
-.works {
 
+
+
+.works {
     background-color: #88BDBC;
     display: flex;
     align-items: center;
@@ -7,33 +9,33 @@
     position: relative;
 
     .arrow {
-        height: 60px;
+        height: 50px;
         position: absolute;
         cursor: pointer;
+
+
 
         &.left {
             left: 100px;
             transform: rotateY(180deg);
-
         }
 
         &.right {
             right: 100px;
-
-
         }
-
-
     }
 
     .slider {
-        height: 370px;
+        height: 390px;
+
         display: flex;
         position: absolute;
+        left: 0;
+        transition: all 1s ease-out;
 
 
         .container {
-            width: 100%;
+            width: 100vw;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -47,8 +49,10 @@
                 align-items: center;
                 justify-content: center;
 
+
+
                 .left {
-                    flex: 6;
+                    flex: 7;
                     height: 80%;
                     display: flex;
                     align-items: center;
@@ -61,36 +65,48 @@
                         flex-direction: column;
                         justify-content: space-around;
 
-                        h2 {
+                        
+                        h1 {
                             font-size: 26px;
+                           color:#0a2125;
+                        }
 
+                        h2 {
+                            font-size: 19px;
+                              color:#6e6658;
                             span {
                                 margin-left: 5px;
                                 font-size: 15px;
-                                color: gray;
+                                color: #628686;
                             }
+
+
                         }
 
                         p {
                             font-size: 15px;
+                            color:#4f4a41;
+
                         }
+
+                        
                     }
                 }
 
                 .right {
                     flex: 3;
                     height: 100%;
-                    background-color: rgb(231, 238, 248);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    overflow: hidden;
 
                     img {
-                        width: 100%;
-                        height: 100%;
-                        object-fit: cover;
+                        width: 400px;
+
                     }
                 }
-
             }
         }
     }
-
 }

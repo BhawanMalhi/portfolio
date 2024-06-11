@@ -4,7 +4,7 @@
     "title": "Astronomy Image",
     "discription": "A single-page, responsive web application developed using the NASA APOD (Astronomy Picture of the Day) API. This application is designed to provide users with a daily astronomical image along with a brief description. Developed with React, CSS, and HTML, the website ensures a dynamic and engaging user experience ",
     "src": "assets/nasa.png",
-    "url": "https://bhawanmalhi.github.io/Nasa-image-react-app/"
+    "url": "https://github.com/BhawanMalhi/Nasa-image-react-app"
   },
   {
     "id": "2",
