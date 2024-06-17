@@ -10,8 +10,7 @@ export default function About() {
           when coding was starting to make a significant impact. I enrolled in
           an extracurricular class to learn basic Java, and, as many can relate,
           my first program was the classic "Hello, World!" printed to the
-          console. This initial exposure ignited my passion for software
-          development.
+          console. 
         </p>
         <p className="about__info--text">
           Following high school, I pursued higher education in Canada, majoring
@@ -34,7 +33,9 @@ export default function About() {
         </p>
         <p className="about__info--text">
           I am eager to leverage this experience in the software development
-          field and make a meaningful impact through my work.
+          field and make a meaningful impact through my work. 
+          <i className="fa-solid fa-pen-fancy"></i>
+         
         </p>
       </div>
     </div>
