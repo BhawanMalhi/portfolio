@@ -1,8 +1,13 @@
+@import "../../global.scss";
 .intro
 {
     background-color: whitesmoke;
     
     display:flex;
+    @include mobile{
+      flex-direction: column;
+      align-items: center;
+    }
     .left
     {
       flex:0.5;
@@ -12,19 +17,27 @@
       .imgContainer
       {
        
-        width:25rem;
-        height:25rem;
+        width:30rem;
+        height:30rem;
         background-color:#6e9b9a;
         border-radius: 60%;
         display:flex;
         align-items: flex-end;
         justify-content: center;
         float:right;
+        @include mobile{
+          align-items: flex-start;
+        }
+  
         img{
            height: 80%;
+           @include mobile{
+            height: 50%;
+          }
+  
 
         }
-
+       
       }
     }
     .right
@@ -40,10 +53,17 @@
         flex-direction: column;
         justify-content: center;
         font-weight:300;
+        @include mobile{
+          padding-left: 0;
+          align-items: center;
+        }
         h1{
             font-size:50px;
             margin:10px 0 ;
             font-weight:500;
+            @include mobile{
+              font-size: 40px;
+            }
         }
         h2{
             font-size:2rem;
@@ -52,6 +72,9 @@
         h3{
            font-size:30px;
            font-weight:300;
+           @include mobile{
+            font-size: 20px;
+          }
            span{
             
              color:#4d7372;

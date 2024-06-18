@@ -3,3 +3,10 @@ $lightBlue:#254E58;
 $lighterBlue:#88BDBC;
 $textColorDark:#4f4a41;
 $textColor:#6e6658;
+$width: 768px;
+
+@mixin mobile {
+    @media (max-width: #{$width}){
+        @content
+    }
+}

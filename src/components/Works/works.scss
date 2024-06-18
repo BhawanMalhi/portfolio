@@ -1,19 +1,21 @@
 
-
+@import "../../global.scss";
 
 .works {
     background-color: #afcecd;
-   //background: linear-gradient(135deg, #f0f4f8, #88BDBC);
+   
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-
+    
     .arrow {
         height: 50px;
         position: absolute;
         cursor: pointer;
-
+        @include mobile {
+            display: none;
+          }
 
 
         &.left {
@@ -33,7 +35,11 @@
         position: absolute;
         left: 0;
         transition: all 1s ease-out;
-
+        @include mobile {
+            height: 100vh;
+            flex-direction: column;
+            justify-content: center;
+          }
 
         .container {
             width: 100vw;
@@ -50,7 +56,11 @@
                 align-items: center;
                 justify-content: center;
 
-
+                @include mobile {
+                    width: 80%;
+                    height: 150px;
+                    margin: 15px 0;
+                  }
 
                 .left {
                     flex: 7;
@@ -75,6 +85,9 @@
                         h2 {
                             font-size: 19px;
                               color:#6e6658;
+                              @include mobile{
+                                font-size: 13px;
+                              }
                             span {
                                 margin-left: 5px;
                                 font-size: 15px;
@@ -87,6 +100,9 @@
                         p {
                             font-size: 15px;
                             color:#4f4a41;
+                            @include mobile{
+                               display:none;
+                              }
 
                         }
 
@@ -101,10 +117,13 @@
                     align-items: center;
                     justify-content: center;
                     overflow: hidden;
+                   
 
                     img {
                         width: 400px;
-
+                        @include mobile {
+                            width: 90%;
+                          }
                     }
                 }
             }

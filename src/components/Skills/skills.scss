@@ -1,4 +1,50 @@
-.skills
-{
-    background-color: beige;
+@import "../../global.scss";
+#skills {
+    text-align: center;
+    background-color: whitesmoke;
+    
+}
+.skills__title{
+    font-size: 45px;
+    padding:1rem;
+    @include mobile {
+        font-size: 24px;
+    }
+}
+.skills__title::after {
+    content: '';
+    width: 150px;
+    height: 4px;
+    background: #254E58;
+    display: block;
+    margin: 10px auto 0;   
+}
+    
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill {
+    margin: 25px;
+    text-align: center;
+}
+
+.skill img {
+    width: 6rem;
+    height: 6rem;
+    @include mobile {
+        width:5rem;
+    height: 5rem;
+    }
+}
+
+.skill p {
+    margin-top: 10px;
+    font-size: 18px;
+    color:#4f4a41;
+    @include mobile {
+       
+    }
 }

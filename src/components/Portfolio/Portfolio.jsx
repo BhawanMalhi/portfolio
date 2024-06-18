@@ -27,7 +27,7 @@ export default function Portfolio() {
 
   return (
     <div className="portfolio" id="portfolio">
-      <h1>Portfolio</h1>
+      <h1 className="portfolio__title">Portfolio</h1>
       <ul>
         {listDetails.map((item) => (
           <List
