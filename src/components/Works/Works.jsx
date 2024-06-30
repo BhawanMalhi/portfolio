@@ -6,6 +6,15 @@ export default function Works() {
   const workData = [
     {
       id: "1",
+      title: "Web Developer",
+      company: "Herm Corporation",
+      timeline: "(June, 2024 - Present)",
+      description:
+        "As a contractor with Herm Corporation, I contributed to multiple web development projects. I delivered a fully functional, user-friendly website for a law firm, ensuring robust performance and a seamless user experience. Utilizing a range of technologies and tools, I enhanced website features and functionality. I worked closely with clients to understand their requirements and provide customized web solutions, demonstrating strong problem-solving skills and the ability to meet tight deadlines in a dynamic work environment.",
+      src: "assets/freelance.png",
+    },
+    {
+      id: "2",
       title: "Investment Advisior",
       company: "Scotiabank",
       timeline: "(Aug, 2023 - Jan, 2024)",
@@ -14,7 +23,7 @@ export default function Works() {
       src: "assets/scotia.png",
     },
     {
-      id: "2",
+      id: "3",
       title: "Credit Analyst",
       company: "Scotiabank",
       timeline: "(July, 2022 - July, 2023)",
@@ -23,7 +32,7 @@ export default function Works() {
       src: "assets/scotia.png",
     },
     {
-      id: "3",
+      id: "4",
       title: "Team Supervisior",
       company: "Mary Browns",
       timeline: "(June, 2022 - Sept, 2023)",

@@ -5,38 +5,36 @@ export default function About() {
     <div className="about" id="about">
       <div className="about__info">
         <h1 className="about__info--title">About Me</h1>
-        <p className="about__info--text">
-          My career in software engineering began during high school, at a time
-          when coding was starting to make a significant impact. I enrolled in
-          an extracurricular class to learn basic Java, and, as many can relate,
-          my first program was the classic "Hello, World!" printed to the
-          console. 
+        <div className="about__info--wrapper">
+          <div className="left">
+           <img src="assets/girlStar.png"/>
+          </div>
+          <div className="right">
+          <p className="about__info--text">
+          My interest in software engineering began during high school, at a
+          time when coding was starting to make a significant impact. I enrolled
+          in an extracurricular class to learn basic Java, and, as many can
+          relate, my first program was the classic "Hello, World!" printed to
+          the console.
         </p>
         <p className="about__info--text">
-          Following high school, I pursued higher education in Canada, majoring
-          in software engineering. During my studies, I gained expertise in web
-          development and became proficient in various programming languages,
-          including Java, C#, and C++.
+          Besides coding and programming, I am also deeply interested in
+          astronomy, physics, and math. These subjects captivate me with their
+          ability to explain the fundamental workings of the universe. I enjoy
+          exploring the mysteries of the cosmos, understanding the principles
+          that govern physical phenomena, and solving complex mathematical
+          problems.
         </p>
         <p className="about__info--text">
-          Upon graduation, I accumulated substantial experience in customer
-          service, particularly within the financial sector, where I worked in
-          both investment and credit departments. This experience honed my
-          problem-solving skills and my ability to communicate effectively with
-          clients.
-        </p>
-        <p className="about__info--text">
-          Recently, I encountered a wonderful opportunity at BrainStation to
-          further advance my web development skills. This program has provided
-          me with in-depth knowledge of JavaScript, React, SASS, and other
-          modern web technologies.
-        </p>
-        <p className="about__info--text">
-          I am eager to leverage this experience in the software development
-          field and make a meaningful impact through my work. 
-          <i className="fa-solid fa-pen-fancy"></i>
+          Additionally, I have a keen interest in politics and historical
+          events. I do enjoy exploring the intricacies of political systems,
+          understanding the impact of policies, and studying significant
+          historical moments that have influenced contemporary life.
          
         </p>
+          </div>
+        </div>
+       
       </div>
     </div>
   );
