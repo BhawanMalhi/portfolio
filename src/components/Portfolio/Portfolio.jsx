@@ -3,22 +3,25 @@ import listDetails from "../../data/details.json";
 import List from "../List/List";
 import { useEffect, useState } from "react";
 export default function Portfolio() {
-  const [active, setActive] = useState("Astronomy Image");
+  const [active, setActive] = useState("Corporate website");
   const [data, setData] = useState([]);
 
   useEffect(() => {
     switch (active) {
-      case "Astronomy Image":
+      case "Corporate website":
         setData(listDetails[0]);
         break;
-      case "Trivia":
-        setData(listDetails[2]);
-        break;
-      case "TravelTab":
+      case "Astronomy Image":
         setData(listDetails[1]);
         break;
-      case "Simon Game":
+      case "Trivia":
         setData(listDetails[3]);
+        break;
+      case "TravelTab":
+        setData(listDetails[2]);
+        break;
+      case "Simon Game":
+        setData(listDetails[4]);
         break;
       default:
         setData(listDetails[0]);

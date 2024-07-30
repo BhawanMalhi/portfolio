@@ -1,0 +1,15 @@
+.list {
+  font-size: 20px;
+  margin-right: 50px;
+  padding: 7px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #4f4a41;
+}
+.list:hover {
+  background-color: #a1dfdd;
+}
+.list.active {
+  background-color: #4d7372;
+  color: white;
+}/*# sourceMappingURL=List.css.map */
